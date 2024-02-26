@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dahir Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="#home" class="active">Dahir Portfolio Website</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-form">Contact Me</a>
+            <a href="about.html">About</a>
+        </div>
+    </header>
+    <section class="bio-section">
+        <div id="bio">
+            <p>Hello! My name is Dahir Hersi. I am pursuing a software engineering certification at Coding Temple to have more freedom. Coding has always been a big interest of mine, but this is my actual first step into my new career!</p>
+        </div>
+        <div id="picture">
+            <img src="unnamed.jpg" alt="Dahir Hersi" class="bio-photo">
+        </div>
+    </section>
+
+    <section class="programming-languages">
+        <h1>Programming Languages</h1>
+        <p>HTML, CSS, Python, SQL, Flask, JavaScript, React</p>
+    </section>
+    
+    
+    <section id="contact-form">
+        <h2>Contact Me For Project Inquiries</h2>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>Email: <a href="mailto:dahirhersi20@gmail.com">dahirhersi20@gmail.com</a></p>
+            <p>Location: Twin Cities</p>
+            </a>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
